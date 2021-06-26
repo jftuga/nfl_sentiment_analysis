@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Sentiment Analysis / AsyncPraw / Socket.IO Demo</title>
+        <link rel="stylesheet" href="fixed.css">
+    </head>
+    <body>
+        <h1>Sentiment Analysis / AsyncPraw / Socket.IO Demo</h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.min.js"></script>
+        <script src="/index.js"></script>
+
+        <div class="scrollingtable">
+            <div>
+            <div>
+            <table id="statsTable" >
+                <caption>r/nfl sentiment analysis</caption>
+                <thead>
+                  <tr>
+                    <th><div><div>Flair</div><div>Flair</div></div></th>
+                    <th><div><div>Polarity, Subjectivity</div><div>Polarity, Subjectivity</div></div></th>
+                    <th><div><div>&Delta;, +, -</div><div>&Delta;, +, -</div></div></th>
+                    <th><div><div>Comment</div><div>Comment</div></div></th>
+                    <th class="scrollbarhead"/> <!-- ALWAYS ADD THIS EXTRA CELL AT END OF HEADER ROW -->
+                  </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            </div>
+                <ul>
+                    <li>SA1: PatternAnalyzer: polarity, subjectivity</li>
+                    <li>SA2: NaiveBayesAnalyzer: <i>difference</i>, positive, negative</li>
+                </ul>
+            </div>
+    </div>
+    </body>
+</html>
