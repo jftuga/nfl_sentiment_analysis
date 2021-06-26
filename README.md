@@ -19,6 +19,8 @@ This is just an experiment to learn more about:
 * Install a recent version of Python 3.
 * Python 3.9.5 was used for development.
 * Install git, if not already installed.
+* A Reddit API account.
+* * Edit `creds.py` with this information.
 
 ## Installation and Operation
 ```
@@ -37,6 +39,8 @@ source bin/activate
 
 # install the necessary Python dependencies inside the Python virtual environment
 pip install -r requirements.txt
+
+# rename creds--TEMPLATE.py to creds.py and edit accordingly
 
 # start the app server
 - windows:
