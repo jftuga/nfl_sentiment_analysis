@@ -1,4 +1,4 @@
-# nfl_sentiment_analysis
+# NFL Sentiment Analysis
 Sentiment Analysis of [r/nfl](https://www.reddit.com/r/nfl/) live-streamed comments
 
 ## Intro
