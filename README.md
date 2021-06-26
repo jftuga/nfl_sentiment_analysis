@@ -9,4 +9,5 @@ This is just an experiment to learn more about:
 * [socket.io](https://socket.io/) - for both JS and Python versions
 * The [Asynchronous Python Reddit API Wrapper](https://github.com/praw-dev/asyncpraw)
 * The [TextBlob: Simplified Text Processing](https://textblob.readthedocs.io/) library to perform [Sentiment Analysis](https://en.wikipedia.org/wiki/Sentiment_analysis)
+* The [Uvicorn](https://www.uvicorn.org/) ASGI server
 * The Python 3 [async / await](https://docs.python.org/3/library/asyncio-task.html) library
