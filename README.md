@@ -43,6 +43,7 @@ source bin/activate
 
 # install the necessary Python dependencies inside the Python virtual environment
 pip install -r requirements.txt
+python -m textblob.download_corpora
 
 # rename creds--TEMPLATE.py to creds.py and edit accordingly
 
