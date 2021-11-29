@@ -24,6 +24,10 @@ This is just an experiment to learn more about:
 
 ## Installation and Operation
 ```
+# you may need to install the python3 developemnt libraries
+# On Fedora Linux, you would run:
+sudo dnf install python3-devel
+
 # clone this repository to your system
 git clone https://github.com/jftuga/nfl_sentiment_analysis
 
